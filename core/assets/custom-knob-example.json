@@ -1,0 +1,27 @@
+{
+com.ray3k.customknobexample.KnobDrawable: {
+	default: {
+		stretchHorizontally: false
+	}
+	knob-drawable-vertical: {
+		knob: knob-vertical
+		bg: knob-bg
+		stretchHorizontally: true
+	}
+	knob-drawable-horizontal: {
+		knob: knob-horizontal
+		bg: knob-bg
+		stretchHorizontally: false
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: slider-bg
+		knob: knob-drawable-horizontal
+	}
+	default-vertical: {
+		background: slider-bg
+		knob: knob-drawable-vertical
+	}
+}
+}
